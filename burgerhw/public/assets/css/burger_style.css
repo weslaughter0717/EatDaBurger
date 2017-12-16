@@ -1,0 +1,65 @@
+#header{
+  text-align: center;
+  border: 6px green;
+  border-radius: 18px;
+  background-color: red;
+  color: green;
+}
+
+body {
+  background: linear-gradient(black, white);
+  margin-bottom: 60em;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: white;
+  color: blue;
+  border-radius: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.change-eat{
+  float: right;
+}
+
+#rightBox{
+  float: right;
+  margin-top: 8em;
+  position: relative;
+}
+#leftBox{
+  float: left;
+  margin-top: 8em;
+  position: relative;
+}
+
+#centerBox{
+  margin-top: 40em;
+  text-align: center;
+  position: relative;
+}
+button{
+  border: 5px black;
+  border-radius:10px;
+  color: red;
+  background-color:green;
+  
+}
+h2{
+  color: white;
+}

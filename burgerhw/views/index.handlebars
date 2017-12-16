@@ -1,0 +1,47 @@
+
+
+
+<div id='header'>
+  <div class="container">
+    <h1 class="display-3">Eat Da Burger</h1>
+  </div>
+</div>
+
+<div id='leftBox'>
+<h2>BURGERS THAT HAVE NOT BEEN EATEN!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#unless eaten}}
+      {{> burgers/hburg-block eat=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+</div>
+<div id="rightBox">
+<h2>BURGERS THAT HAVE BEEN EATEN!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if eaten}}
+      {{> burgers/hburg-block eat=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+</div>
+<div class='container'>
+<div id="centerBox">
+<h2>Add a Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ba">Burger Name:</label>
+    <input type="text" id="ba" name="burger">
+
+
+
+  <button type="submit">Add Burger</button>
+</form>
+    </div>
+  </div>
+</div>
