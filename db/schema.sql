@@ -1,7 +1,7 @@
 -- hey --
 
 
-USE tucr3tds8ti5hj24;
+USE i9vv64i37w3cosgu;
 
 -- Create the table plans.
 CREATE TABLE burgers
