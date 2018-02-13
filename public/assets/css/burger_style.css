@@ -33,23 +33,21 @@ li {
   margin-bottom: 5px;
 }
 
-.change-eat{
-  float: right;
-}
+/*.change-eat{*/
+/*  float: right;*/
+/*}*/
 
 #rightBox{
-  float: right;
   margin-top: 8em;
   position: relative;
 }
 #leftBox{
-  float: left;
   margin-top: 8em;
   position: relative;
 }
 
 #centerBox{
-  margin-top: 40em;
+  margin-top: 10em;
   text-align: center;
   position: relative;
 }
